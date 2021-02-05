@@ -10,11 +10,12 @@ namespace UserRegistration
             string FirstName = "Mahesh";
             string LastName = "Kangude";
             string EmailAddress = "maheshkangude@gmail.com";
+            string MobileNumber = "91 8483996231";
 
             userRegexTest.ValidateFirstName(FirstName);
             userRegexTest.ValidateLastName(LastName);
             userRegexTest.ValidateEmailAddress(EmailAddress);
-
+            userRegexTest.ValidateMobileNumber(MobileNumber);
         }
     }
 }

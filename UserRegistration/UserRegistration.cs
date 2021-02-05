@@ -8,7 +8,10 @@ namespace UserRegistration
         { 
             UserRegexTest userRegexTest = new UserRegexTest();
             String FirstName = "Mahesh";
+            String LastName = "Kangude";
+
             userRegexTest.ValidateFirstName(FirstName);
+            userRegexTest.ValidateLastName(LastName);
         }
     }
 }

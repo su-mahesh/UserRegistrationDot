@@ -11,7 +11,7 @@ namespace UserRegistration
             string LastName = "Kangude";
             string EmailAddress = "maheshkangude@gmail.com";
             string MobileNumber = "91 8483996231";
-            string Password = "sd*ncKjn8dc";
+            string Password = "sdncKjn&8dc";
 
             userRegexTest.ValidateFirstName(FirstName);
             userRegexTest.ValidateLastName(LastName);
